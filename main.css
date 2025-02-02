@@ -1,0 +1,75 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: color-change 3s infinite;
+    
+  }
+  IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .pain {
+    text-align: center;
+    text-shadow: darkslategrey;
+    border: 2px solid blue;
+    font-size: 24px;
+   }
+    .inter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @keyframes color-change0 {
+    0% {
+      color: rgb(55, 191, 28);
+    }
+  
+    50% {
+      color: rgb(156, 181, 30);
+    }
+  
+    100% {
+      color: rgb(21, 205, 67);
+    }
+  }
+  .situation{
+    font-size: 34px;
+    text-align: center;
+    animation: color-change0 3s infinite;
+  }
+  p{
+    text-align: center;
+    animation: color-change 3s infinite;
+    font-size: 22px;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+  }
+
+  .container {
+    display: flex;
+  }
+
+  header{
+    font-size: 34px;
+    text-align: center;
+    animation: color-change0 3s infinite;
+    background-color: rgb(15, 78, 154);
+  }
+  
+
+ 
